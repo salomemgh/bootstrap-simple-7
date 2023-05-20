@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: inter-medium;
+    src: url(Inter-Medium.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFF7F6;
+    border: 2px solid #FFC7C2;
+    border-radius: 12px;
+} 
+.product_title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #1E1E1E;
+    letter-spacing: -0.019em;
+    font-family: inter-medium;
+}
+.button-shadow{
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.08), 0px 3px 5px rgba(0, 0, 0, 0.04), 0px 2.5px 2px rgba(0, 0, 0, 0.02);
+}
+.button1{
+    padding-left: 32px;
+    padding-right: 24px;
+    background-color: #FFBDF2;
+    text-align: start;
+    font-family: inter-medium;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: -0.022em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.button1:hover{
+    background: #FFBDF2;
+    border: 2px solid #b55fe8;
+}
+.P_problem, .P_approach, .P_purpose{
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    color: #1E1E1E;
+    font-family: inter-medium;
+}
+.P_insert{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: inter-medium;
+}
+.box{
+    height: 240px;
+    background-color: #FFC7C2;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.08), 0px 3px 5px rgba(0, 0, 0, 0.04), 0px 2.5px 2px rgba(0, 0, 0, 0.02);
+}
+.box:hover, .card1:hover, .card2:hover{
+    border: 2px solid #b55fe8;
+}
+
+.btn_purple1::placeholder, .btn_purple2::placeholder, .btn_yellow::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: inter-medium;
+}
+.btn_purple1::placeholder{
+    color: #FFC7C2;
+}
+.btn_purple2::placeholder{
+    color: #FFBDF2;
+}
+.btn_yellow::placeholder{
+    color: #FFC470;
+}
+.btn_purple1:hover, .btn_purple2:hover, .btn_yellow:hover{
+    border: 2px solid #b55fe8;
+    width: 200px;
+}
+
+@media screen and ( max-width: 340px) {
+    .btn_purple:hover{
+        border: 2px solid #b55fe8;
+        width: 50px;
+    }
+    input::placeholder{
+        font-size: 8px;
+    }
+}
+.card1, .card2{
+    height: 240px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.08), 0px 3px 5px rgba(0, 0, 0, 0.04), 0px 2.5px 2px rgba(0, 0, 0, 0.02);
+}
+.card1{
+    background: #FFBDF2;
+}
+.card2{
+    background: #FFC470;
+}
+
+.for_bottom{
+    padding-bottom: 194px;
+}
+
+
